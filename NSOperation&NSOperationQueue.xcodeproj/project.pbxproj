@@ -13,6 +13,7 @@
 		D821520D20731E4C00DC5D61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D821520C20731E4C00DC5D61 /* Assets.xcassets */; };
 		D821521020731E4C00DC5D61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D821520E20731E4C00DC5D61 /* LaunchScreen.storyboard */; };
 		D821521320731E4C00DC5D61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D821521220731E4C00DC5D61 /* main.m */; };
+		D892BBAA20738060002A2C5F /* BMWOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D892BBA920738060002A2C5F /* BMWOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D821520F20731E4C00DC5D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D821521120731E4C00DC5D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D821521220731E4C00DC5D61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D892BBA820738060002A2C5F /* BMWOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMWOperation.h; sourceTree = "<group>"; };
+		D892BBA920738060002A2C5F /* BMWOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMWOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				D821520420731E4C00DC5D61 /* AppDelegate.m */,
 				D821520620731E4C00DC5D61 /* ViewController.h */,
 				D821520720731E4C00DC5D61 /* ViewController.m */,
+				D892BBA820738060002A2C5F /* BMWOperation.h */,
+				D892BBA920738060002A2C5F /* BMWOperation.m */,
 				D821520920731E4C00DC5D61 /* Main.storyboard */,
 				D821520C20731E4C00DC5D61 /* Assets.xcassets */,
 				D821520E20731E4C00DC5D61 /* LaunchScreen.storyboard */,
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D892BBAA20738060002A2C5F /* BMWOperation.m in Sources */,
 				D821520820731E4C00DC5D61 /* ViewController.m in Sources */,
 				D821521320731E4C00DC5D61 /* main.m in Sources */,
 				D821520520731E4C00DC5D61 /* AppDelegate.m in Sources */,
